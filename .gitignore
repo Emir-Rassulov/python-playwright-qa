@@ -1,0 +1,28 @@
+# Virtual environment
+venv/
+env/
+
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Pytest / test artifacts
+.pytest_cache/
+htmlcov/
+.coverage
+report.html
+test-results/
+
+# Playwright
+/test-results/
+/playwright-report/
+trace-results/
+
+# OS files
+.DS_Store
+
+# IDE
+.vscode/
